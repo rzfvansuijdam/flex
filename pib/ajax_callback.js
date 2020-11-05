@@ -39,11 +39,11 @@ function serverWriteJson(data){
   }
 
   function serverGetJson(){
-    let url = "http://30104.hosts2.ma-cloud.nl/bewijzenmap/periode2.1/pib/drawing.json"
+    let url = "http://28996.hosts2.ma-cloud.nl/bewijzmap/periode1.4/flex/pib/drawing.json"
     makeAjaxCall(url, "GET"). then (readJson, errorHandler);
   }
 
   function preload(){
-    let url = "http://30104.hosts2.ma-cloud.nl/bewijzenmap/periode2.1/pib/preload.json"
+    let url = "http://28996.hosts2.ma-cloud.nl/bewijzmap/periode1.4/flex/pib/preload.json"
     makeAjaxCall(url, "GET"). then (readJson2, errorHandler);
   }
